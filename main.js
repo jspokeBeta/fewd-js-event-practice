@@ -14,5 +14,12 @@ document.addEventListener('click', function(event) {
   if (event.target === buttonOne) {
     buttonOne.classList.toggle('button-danger');
   }
-
+  //Click on buttonTwo
+  if (event.target === buttonTwo) {
+    buttonTwo.innerText = 'you clicked me';
+  }
+  //Click on buttonThree
+  if (event.target === buttonThree) {
+    buttonTwo.innerText = 'button two';
+  }
 }, false);
